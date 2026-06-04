@@ -8,6 +8,5 @@ let mult = n1 * n2;
 let div = n1 / n2;
 
 
-alert(suma + resta);
-console.log(mult);
-console.log(div);
+alert('el resultado de la suma es: ' + suma);
+console.log('el resultado de la resta es: ' + resta);
