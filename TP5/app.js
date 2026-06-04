@@ -1,9 +1,13 @@
-//variables
-let suma = 1 + 2
-let resta = 6 - 7
-let mult = 67 * 1
-let div = 6 / 2
 
-//sm shii
-alert('el resultado de la suma es: ' + suma);
-console.log('el resultado de la resta es: ' + resta);
+let n1 = 4;
+let n2 = 2;
+
+let suma = n1 + n2;
+let resta = n1 - n2;
+let mult = n1 * n2;
+let div = n1 / n2;
+
+
+alert(suma + resta);
+console.log(mult);
+console.log(div);
