@@ -5,6 +5,5 @@ let mult = 67 * 1
 let div = 6 / 2
 
 //sm shii
-alert(suma + resta);
-console.log(mult);
-console.log(div);
+alert('el resultado de la suma es: ' + suma);
+console.log('el resultado de la resta es: ' + resta);
