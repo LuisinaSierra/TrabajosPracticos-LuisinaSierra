@@ -1,7 +1,6 @@
 
-let price1 = 11
-let price2 = 21
-let price3 = 31
-let total = price1 + price2 + price3
+let comidafav = 'fanta de uva'
+let colorfav = 'violeta'
+let numfav = 2
 
-console.log('El total a pagar es ' + total)
+console.log('Mi comida favorita es ' + comidafav + ', me gusta el color ' + colorfav + ' y mi numero fav es el' + numfav)
