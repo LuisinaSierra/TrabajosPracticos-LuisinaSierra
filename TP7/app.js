@@ -1,6 +1,7 @@
 let ej1 = document.querySelector('#ej1')
 let btn1 = document.querySelector('#btn1')
-let edad1 = 30
+let edad1 = 0
+let imput1 = document.querySelector('#Imput1')
 
 let ej2 = document.querySelector('#ej2')
 let btn2 = document.querySelector('#btn2')
@@ -24,6 +25,7 @@ let contra = 'secreto'
 //-----------------------------------------------
 
 btn1.onclick = function() {
+    edad1 = imput1.value
    if (edad1 >= 18)
    {
        ej1.textContent = 'eres mayor de edad'
