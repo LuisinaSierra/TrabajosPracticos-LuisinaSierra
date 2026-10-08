@@ -39,3 +39,25 @@ function numeromenor(n1, n2)
 btn2.onclick = function() {
     text2.textContent = numeromenor(inputnum1punto2.value, inputnum2punto2.value)
 }
+
+
+////////////////ACT3///////////////
+
+let btn3 = document.querySelector('#btn3')
+let text3 = document.querySelector('#text3')
+let inputnum1punto3 = document.querySelector('#inputnum1punto3')
+let inputnum2punto3 = document.querySelector('#inputnum2punto3')
+
+function numeroigual(n1, n2)
+{
+    if (n1 == n2){
+        return 'los numeros son iguales'
+    }else{
+        return 'los numeros no son iguales'
+    }
+
+}
+
+btn3.onclick = function() {
+    text3.textContent = numeroigual(inputnum1punto3.value, inputnum2punto3.value)
+}
