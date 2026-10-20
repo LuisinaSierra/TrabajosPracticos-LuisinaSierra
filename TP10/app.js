@@ -1,11 +1,9 @@
-let nombres = ['Alvaro', 'Ignacio', 'Bruno']
-let n1 = document.querySelector('h1')
+let utiles = ['Lapiz', 'Goma', 'Regla', 'Cuaderno', 'Lapicera'];
 
-nombres[1] = 'arturo kirklandia'
-nombres[3] = 'martillo'
-nombres.push('pppp')
-nombres.pop()
-nombres.unshift('jajejijoju')
-nombres.shift()
+console.log(utiles);
 
-n1.textContent = nombres
+console.log(utiles[0]);
+
+console.log(utiles[2]);
+
+console.log(utiles[utiles.length - 1]);
