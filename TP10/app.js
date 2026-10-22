@@ -53,3 +53,34 @@ console.log(productos[0])
 productos.shift()
 console.log(productos)
 console.log(productos.length)
+
+//ACTIVIDAD 3
+console.log('Actividad 3')
+
+let productos2 = ['teclado', 'Mouse', 'Monitor', 'Auriculares', 'Webcam', 'Parlantes']
+
+console.log(productos2[productos2.indexOf('Mouse')])
+
+console.log(productos2[productos2.indexOf('Monitor')])
+
+console.log(productos2[productos2.indexOf('Webcam')])
+
+console.log(productos2[productos2.indexOf('Impresora')])
+
+let posteclado = productos2.indexOf('Teclado')
+
+if (productos2.includes('Impresora') == false) {
+    console.log('no esta impresora')
+} else if (productos2.includes('Impresora') == true){
+    console.log('si esta impresora')
+}
+
+productos2.push('Impresora')
+
+if (productos2.includes('Impresora') == false) {
+    console.log('no esta impresora')
+} else if (productos2.includes('Impresora') == true){
+    console.log('si esta impresora')
+}
+
+console.log(productos2.length)
