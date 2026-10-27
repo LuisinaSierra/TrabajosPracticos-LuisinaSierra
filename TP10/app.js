@@ -69,18 +69,37 @@ console.log(productos2[productos2.indexOf('Impresora')])
 
 let posteclado = productos2.indexOf('Teclado')
 
-if (productos2.includes('Impresora') == false) {
-    console.log('no esta impresora')
-} else if (productos2.includes('Impresora') == true){
-    console.log('si esta impresora')
+if (posteclado == -1) {
+    console.log('no esta teclado')
+} else {
+    console.log('esta teclado')
+}
+//if (productos2.includes('Teclado') == false) {
+//    console.log('no esta teclado')
+//} else if (productos2.includes('Teclado') == true){
+//    console.log('si esta teclado')
+//}
+let posimpresora = productos2.indexOf('Impresora')
+
+if (posimpresora = -1) {
+    console.log('no esta Impresora')
+} else {
+    console.log('esta impresora')
 }
 
 productos2.push('Impresora')
 
-if (productos2.includes('Impresora') == false) {
-    console.log('no esta impresora')
-} else if (productos2.includes('Impresora') == true){
-    console.log('si esta impresora')
+if (posimpresora = -1) {
+    console.log('no esta Impresora')
+} else {
+    console.log('esta impresora')
 }
 
+//if (productos2.includes('Impresora') == false) {
+//    console.log('no esta impresora')
+//} else if (productos2.includes('Impresora') == true){
+//    console.log('si esta impresora')
+//}
+
 console.log(productos2.length)
+
