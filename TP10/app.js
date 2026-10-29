@@ -103,3 +103,20 @@ if (posimpresora = -1) {
 
 console.log(productos2.length)
 
+//ACTIVIDAD 4
+console.log('Actividad 4')
+let videojuegos = ['Minecraft', 'Pokemon Cristal', 'Super Mario', 'The Legend of Zelda', 'Sonic']
+
+console.log(videojuegos)
+console.log(videojuegos.length)
+videojuegos.push('Animal Crossing')
+videojuegos.push('Pokemon Rojo')
+console.log(videojuegos)
+videojuegos.unshift['Tetris']
+videojuegos.unshift['Pac-Man']
+console.log[videojuegos]
+console.log(videojuegos.indexOf('Pokemon Cristal'))
+console.log(videojuegos.indexOf('Sonic'))
+console.log(videojuegos.indexOf('FIFA'))
+console.log(videojuegos.length - 1)
+videojuegos.pop()
